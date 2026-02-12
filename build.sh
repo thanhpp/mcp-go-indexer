@@ -1,0 +1,1 @@
+go build -v -o ./mcp-go-indexer ./cmd/mcp-go-indexer

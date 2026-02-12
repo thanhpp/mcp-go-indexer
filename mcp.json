@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+        "local-codebase-indexer": {
+            "command": "/absolute/path/to/your/go/mcp-indexer",
+            "args": [],
+            "env": {
+                "OLLAMA_URL": "http://localhost:11434",
+                "EMBEDDING_MODEL": "qwen3-embedding:8b",
+                "QDRANT_URL": "localhost:6333"
+            },
+            "disabled": false
+        }
+    }
+}
